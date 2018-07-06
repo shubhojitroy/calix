@@ -28,20 +28,5 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.footer {
-    background-color: #005695;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    flex: 0 0 48px;
-    padding: 0.75rem 0.5rem;
-    color: rgba(255, 255, 255, 1.0);
-    // line-height: normal;
-    display: flex;
-    justify-content: flex-end;
-    // align-items: center;
-}
-.footer .image {
-    width: 110px;
-}
+
 </style>

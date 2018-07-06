@@ -27,11 +27,5 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.navbar {
-    border-bottom: 0.05rem solid #76c4e3;
-    border-top: 0.05rem solid #ff8300;
-}
-.navbar-item img {
-    max-height:  100%;
-}
+
 </style>

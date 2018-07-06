@@ -1,0 +1,55 @@
+#app {
+    // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Overpass', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: left;
+    color: #2c3e50;
+    // margin-top: 60px;
+}
+.space{
+    width: 100%;
+    display: block;
+    height: 1.5em;
+}
+
+//landing-page styles
+
+.title {
+    color: #005695;
+}
+p {
+    color: #777;
+    margin-bottom: 0.5557em;
+}
+
+.button.is-primary.is-hovered, .button.is-primary:hover {
+    background-color: #fd8204;
+}
+
+//footer-part styles
+.footer {
+    background-color: #005695;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    flex: 0 0 48px;
+    padding: 0.75rem 0.5rem;
+    color: rgba(255, 255, 255, 1.0);
+    // line-height: normal;
+    display: flex;
+    justify-content: flex-end;
+    // align-items: center;
+}
+.footer .image {
+    width: 110px;
+}
+
+//header-part styles
+.navbar {
+    border-bottom: 0.05rem solid #76c4e3;
+    border-top: 0.05rem solid #fd8204;
+}
+.navbar-item img {
+    max-height:  100%;
+}

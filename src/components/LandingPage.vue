@@ -9,9 +9,21 @@
                 <p>
                    Due to legal restrictions, access to this webpage is only intended for access by persons within Australia. This webpage does not constitute an offer of securities in any place in which, or to any person to whom, it would not be lawful to make such an offer.
                 </p>
+                <form novalidate>
+                    <div class="field">
+                        <label class="label">Country of Primary Residence</label>
+                        <div class="control">
+                            <input class="input is-hovered" type="text" placeholder="Text input">
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="control">
+                        <button class="button is-primary">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
-  </section>
+    </section>
 </template>
 
 <script>
@@ -24,10 +36,12 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.title {
-    color: #005695;
+.button {
+  background-color: #00477c;
 }
-p {
-    color: #777;
+.button.is-primary.is-active, .button.is-primary:active {
+    background-color: #00477c;
+    border-color: transparent;
+    color: #fff;
 }
 </style>
