@@ -10,12 +10,18 @@
                    Due to legal restrictions, access to this webpage is only intended for access by persons within Australia. This webpage does not constitute an offer of securities in any place in which, or to any person to whom, it would not be lawful to make such an offer.
                 </p>
                 <form novalidate>
-                    <div class="field">
-                        <label class="label">Country of Primary Residence</label>
-                        <div class="control">
-                            <input class="input is-hovered" type="text" placeholder="Text input">
-                        </div>
-                    </div>
+                    <b-field label>Country of Primary Residence
+                        <b-select placeholder="Country" icon="earth" size="default" expanded=true>
+                            <option
+                                v-for="option in data"
+                                :value="option.id"
+                                :key="option.id">
+                                {{ option.user.first_name }}
+                            </option>
+                        </b-select>
+                    </b-field>
+
+                    <!-- <selected-country /> -->
                     <div class="space"></div>
                     <div class="control">
                         <button class="button is-primary">Submit</button>

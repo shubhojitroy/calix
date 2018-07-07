@@ -15,6 +15,7 @@
 import LandingPage from './components/LandingPage.vue';
 import HeaderPart from './components/childcomponents/HeaderPart.vue';
 import FooterPart from './components/childcomponents/FooterPart.vue';
+import SelectedCountry from './components/childcomponents/SelectedCountry.vue';
 
 export default {
   name: 'app',
@@ -23,6 +24,7 @@ export default {
     HeaderPart,
     FooterPart,
     LandingPage,
+    SelectedCountry,
   },
 };
 </script>
