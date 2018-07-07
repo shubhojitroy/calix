@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "buefy": "^0.6.6",
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-material-design-icons": "^1.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
