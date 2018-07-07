@@ -3,7 +3,9 @@
     <header-part />
     <!-- <img src="./assets/logo.svg" width="200"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <LandingPage />
+    <main>
+      <LandingPage />
+    </main>
     <footer-part />
   </div>
 </template>
